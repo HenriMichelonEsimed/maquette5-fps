@@ -1,7 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://c32acstr8cjhm"]
+[gd_scene load_steps=6 format=3 uid="uid://c32acstr8cjhm"]
 
 [ext_resource type="PackedScene" uid="uid://17pux8k2u68t" path="res://res/src/capsule.glb" id="1_8q7pu"]
 [ext_resource type="Script" path="res://src/player.gd" id="1_bwkx2"]
+[ext_resource type="PackedScene" uid="uid://clgbo11qmkhno" path="res://res/ak_12.tscn" id="3_h0rpg"]
+[ext_resource type="PackedScene" uid="uid://bo7nyfqkmntow" path="res://scenes/crosshair.tscn" id="4_en7o3"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_pkq3l"]
 height = 1.80136
@@ -19,12 +21,39 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5834, -0.330408)
 [node name="CameraPivot" type="Node3D" parent="CameraAttachement"]
 
 [node name="Camera3D" type="Camera3D" parent="CameraAttachement/CameraPivot"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.153897)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.132054, -0.261324)
 current = true
 fov = 65.0
-near = 0.01
 far = 100.0
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.904284, 0)
 shape = SubResource("CapsuleShape3D_pkq3l")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Crosshair" parent="Control" instance=ExtResource("4_en7o3")]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="WeaponAttachement" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.175358, 1.08798, -0.517185)
+
+[node name="WeaponPivot" type="Node3D" parent="WeaponAttachement"]
+
+[node name="AK12" parent="WeaponAttachement/WeaponPivot" instance=ExtResource("3_h0rpg")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0.215699, -0.550526)

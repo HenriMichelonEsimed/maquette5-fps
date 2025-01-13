@@ -3,6 +3,7 @@ extends CharacterBody3D
 
 @onready var camera : Camera3D = $CameraAttachement/CameraPivot/Camera3D
 @onready var camera_pivot : Node3D = $CameraAttachement/CameraPivot
+@onready var weapon_pivot : Node3D = $WeaponAttachement/WeaponPivot
 
 const walking_speed:float = 4
 const running_speed:float = 8
@@ -22,6 +23,8 @@ func _input(event):
 		rotate_y(-event.relative.x * mouse_sensitivity)
 		camera_pivot.rotate_x(event.relative.y * mouse_sensitivity * mouse_y_axis)
 		camera_pivot.rotation.x = clampf(camera_pivot.rotation.x, max_camera_angle_down, max_camera_angle_up)
+		weapon_pivot.rotate_x(event.relative.y * mouse_sensitivity * mouse_y_axis)
+		weapon_pivot.rotation.x = clampf(weapon_pivot.rotation.x, max_camera_angle_down, max_camera_angle_up)
 
 func _physics_process(delta: float) -> void:
 	var on_floor = is_on_floor() 

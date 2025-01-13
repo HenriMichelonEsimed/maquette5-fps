@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://clgbo11qmkhno"]
+
+[ext_resource type="PackedScene" uid="uid://b546d6m2eyvul" path="res://res/src/AK12.glb" id="1_rpvdq"]
+
+[node name="AK12" instance=ExtResource("1_rpvdq")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0.215699, -0.550526)

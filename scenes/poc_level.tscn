@@ -4536,9 +4536,19 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.78226, -0.332057, -12.5517)
 [node name="lights" type="Node3D" parent="."]
 
 [node name="OmniLight3D" type="OmniLight3D" parent="lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, 8, -25.5)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.5, 8, -29.5)
 light_energy = 20.0
-omni_range = 40.0
+omni_range = 30.0
+
+[node name="OmniLight3D4" type="OmniLight3D" parent="lights"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.5, 8, -29.5)
+light_energy = 20.0
+omni_range = 30.0
+
+[node name="OmniLight3D3" type="OmniLight3D" parent="lights"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.5, 8, -8)
+light_energy = 20.0
+omni_range = 30.0
 
 [node name="OmniLight3D2" type="OmniLight3D" parent="lights"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.5, 8, -5)
