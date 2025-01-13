@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://cu6waqmm8c4n3"]
+
+[ext_resource type="ArrayMesh" uid="uid://dfry0xunvelox" path="res://res/src/meshes/space_colony_modular_kit_bash_Cube_1919_Texture_Atlas1_0.res" id="1_woeyq"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_dtdwb"]
+size = Vector3(0.5271, 2, 4)
+
+[node name="Wall1" type="StaticBody3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(-4.37114e-08, -1, -4.37114e-08, 0, -4.37114e-08, 1, -1, 4.37114e-08, 1.91069e-15, 0, 2.5, 0)
+mesh = ExtResource("1_woeyq")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(-4.37114e-08, -1, -4.37114e-08, 0, -4.37114e-08, 1, -1, 4.37114e-08, 1.91069e-15, 2.16689e-08, 2, -0.00427246)
+shape = SubResource("BoxShape3D_dtdwb")
