@@ -1,0 +1,2271 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://dt8er77evexfl"
+path="res://.godot/imported/space_colony_modular_kit_bash.glb-3a13f7f4a08b045bc5016fcfa5dcd16b.scn"
+
+[deps]
+
+source_file="res://res/src/space_colony_modular_kit_bash.glb"
+dest_files=["res://.godot/imported/space_colony_modular_kit_bash.glb-3a13f7f4a08b045bc5016fcfa5dcd16b.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+_subresources={
+"meshes": {
+"space_colony_modular_kit_bash_Circle_017_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Circle_017_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Circle_018_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Circle_018_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Circle_019_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Circle_019_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Circle_020_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Circle_020_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Circle_021_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Circle_021_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Circle_022_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Circle_022_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Circle_024_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Circle_024_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_001_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_001_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_002_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_002_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_010_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_010_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_013_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_013_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_014_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_014_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_017_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_017_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_026_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_026_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_039_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_039_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_053_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_053_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_056_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_056_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_058_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_058_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_059_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_059_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_061_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_061_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_062_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_062_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_108_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_108_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_112_Glass_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_112_Glass_0.res"
+},
+"space_colony_modular_kit_bash_Cube_112_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_112_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_113_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_113_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_117_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_117_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1315_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1315_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1322_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1322_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1323_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1323_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1325_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1325_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1329_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1329_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1411_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1411_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1420_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1420_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_167_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_167_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_168_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_168_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_173_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_173_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_175_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_175_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1808_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1808_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1809_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1809_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1810_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1810_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1811_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1811_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1816_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1816_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1817_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1817_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1834_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1834_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1849_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1849_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1850_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1850_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1853_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1853_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1871_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1871_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1872_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1872_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1873_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1873_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1874_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1874_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1875_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1875_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1876_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1876_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1890_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1890_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1919_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1919_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1920_Glass_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1920_Glass_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1920_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1920_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1921_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1921_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1922_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1922_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1923_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1923_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1924_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1924_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1925_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1925_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1926_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1926_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1927_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1927_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1928_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1928_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1929_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1929_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1930_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1930_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1931_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1931_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1932_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1932_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1933_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1933_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1934_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1934_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1935_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1935_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1936_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1936_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1937_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1937_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1955_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1955_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1956_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1956_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1957_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1957_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1958_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1958_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1959_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1959_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1984_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1984_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1992_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1992_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_1994_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_1994_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_2005_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_2005_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_2028_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_2028_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_2031_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_2031_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_2056_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_2056_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_2057__0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_2057__0.res"
+},
+"space_colony_modular_kit_bash_Cube_2287_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_2287_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_2288_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_2288_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_2324_Glass_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_2324_Glass_0.res"
+},
+"space_colony_modular_kit_bash_Cube_2324_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_2324_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_2325_Glass_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_2325_Glass_0.res"
+},
+"space_colony_modular_kit_bash_Cube_2325_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_2325_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_2326_Glass_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_2326_Glass_0.res"
+},
+"space_colony_modular_kit_bash_Cube_2326_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_2326_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_244_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_244_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_2508_Glass_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_2508_Glass_0.res"
+},
+"space_colony_modular_kit_bash_Cube_2508_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_2508_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_2509_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_2509_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_2510_Glass_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_2510_Glass_0.res"
+},
+"space_colony_modular_kit_bash_Cube_2510_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_2510_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_2512_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_2512_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_268_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_268_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_2780_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_2780_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_2813_Glass_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_2813_Glass_0.res"
+},
+"space_colony_modular_kit_bash_Cube_2813_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_2813_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3248_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3248_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_326_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_326_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_327_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_327_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_328_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_328_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_329_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_329_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_331_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_331_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_334_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_334_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_336_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_336_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_337_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_337_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3521_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3521_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3522_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3522_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3523_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3523_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3524_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3524_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3525_Glass_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3525_Glass_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3525_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3525_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3558_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3558_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3559_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3559_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3560_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3560_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3561_Glass_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3561_Glass_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3561_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3561_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3569_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3569_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3590_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3590_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3591_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3591_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3592_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3592_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3593_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3593_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3594_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3594_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3595_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3595_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3596_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3596_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3597_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3597_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3598_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3598_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3599_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3599_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3600_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3600_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3601_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3601_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3602_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3602_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3603_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3603_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3604_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3604_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3605_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3605_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3606_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3606_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3607_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3607_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3608_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3608_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3609_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3609_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3610_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3610_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3611_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3611_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3612_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3612_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3613_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3613_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3614_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3614_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3615_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3615_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3616_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3616_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3617_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3617_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3618_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3618_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3619_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3619_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3620_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3620_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3621_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3621_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3622_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3622_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3623_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3623_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3624_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3624_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3625_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3625_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_3626_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_3626_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_386_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_386_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_678_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_678_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_681_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_681_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_688_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_688_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_689_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_689_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_701_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_701_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_701_Texture_Atlas1_0_001": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_701_Texture_Atlas1_0_001.res"
+},
+"space_colony_modular_kit_bash_Cube_701_Texture_Atlas1_0_002": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_701_Texture_Atlas1_0_002.res"
+},
+"space_colony_modular_kit_bash_Cube_712_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_712_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_718_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_718_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_722_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_722_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_735_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_735_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_736_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_736_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_737_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_737_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_738_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_738_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_856_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_856_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_907_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_907_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_924_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_924_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_971_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_971_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cube_974_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cube_974_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_008_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_008_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_011_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_011_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_013_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_013_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_014_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_014_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_015_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_015_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_028_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_028_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_032_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_032_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_034_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_034_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_044_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_044_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_046_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_046_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_047_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_047_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_048_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_048_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_049_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_049_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_055_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_055_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_056_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_056_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_057_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_057_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_058_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_058_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_063_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_063_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_074_Glass_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_074_Glass_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_074_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_074_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_075_Glass_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_075_Glass_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_075_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_075_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_076_Glass_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_076_Glass_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_076_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_076_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_077_Glass_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_077_Glass_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_077_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_077_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_078_Glass_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_078_Glass_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_078_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_078_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_079_Glass_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_079_Glass_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_079_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_079_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_080_Glass_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_080_Glass_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_080_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_080_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_081_Glass_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_081_Glass_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_081_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_081_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_082_Glass_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_082_Glass_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_082_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_082_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_083_Glass_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_083_Glass_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_083_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_083_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_084_Glass_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_084_Glass_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_084_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_084_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_085_Glass_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_085_Glass_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_085_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_085_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_093_Glass_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_093_Glass_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_093_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_093_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_098_Glass_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_098_Glass_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_098_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_098_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_099_Glass_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_099_Glass_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_099_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_099_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_109_Glass_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_109_Glass_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_109_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_109_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Cylinder_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Cylinder_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Pipe_Corner_001_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Pipe_Corner_001_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Pipe_Corner_004_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Pipe_Corner_004_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Pipe_Corner_008_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Pipe_Corner_008_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Pipe_Corner_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Pipe_Corner_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Plane_014_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Plane_014_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Plane_017_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Plane_017_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Plane_018_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Plane_018_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Plane_030_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Plane_030_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Plane_031_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Plane_031_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Plane_032_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Plane_032_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Plane_033_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Plane_033_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Plane_034_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Plane_034_Texture_Atlas1_0.res"
+},
+"space_colony_modular_kit_bash_Text_Texture_Atlas1_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://res/src/meshes/space_colony_modular_kit_bash_Text_Texture_Atlas1_0.res"
+}
+}
+}
+gltf/naming_version=1
+gltf/embedded_image_handling=1

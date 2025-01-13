@@ -1,0 +1,161 @@
+[gd_scene load_steps=7 format=3 uid="uid://brxr82njiqts2"]
+
+[ext_resource type="ArrayMesh" uid="uid://dh4ku8r888i88" path="res://res/src/meshes/space_colony_modular_kit_bash_Cube_1411_Texture_Atlas1_0.res" id="1_p78ic"]
+[ext_resource type="PackedScene" uid="uid://c32acstr8cjhm" path="res://scenes/player.tscn" id="2_kjryb"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_4nffc"]
+sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+ground_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+
+[sub_resource type="Sky" id="Sky_ngpjl"]
+sky_material = SubResource("ProceduralSkyMaterial_4nffc")
+
+[sub_resource type="Environment" id="Environment_7buo5"]
+background_mode = 2
+sky = SubResource("Sky_ngpjl")
+tonemap_mode = 2
+glow_enabled = true
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_egcc4"]
+size = Vector3(20, 0.1, 20)
+
+[node name="Poc" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_7buo5")
+
+[node name="Player" parent="." instance=ExtResource("2_kjryb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1.5)
+
+[node name="floor" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.05, 0)
+
+[node name="tiles" type="Node3D" parent="floor"]
+
+[node name="floor_1" type="MeshInstance3D" parent="floor/tiles"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("1_p78ic")
+skeleton = NodePath("../../..")
+
+[node name="floor_2" type="MeshInstance3D" parent="floor/tiles"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 2, 0, 0)
+mesh = ExtResource("1_p78ic")
+skeleton = NodePath("../../..")
+
+[node name="floor_15" type="MeshInstance3D" parent="floor/tiles"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 4, 0, 0)
+mesh = ExtResource("1_p78ic")
+skeleton = NodePath("../../..")
+
+[node name="floor_3" type="MeshInstance3D" parent="floor/tiles"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 2, 0, -2)
+mesh = ExtResource("1_p78ic")
+skeleton = NodePath("../../..")
+
+[node name="floor_14" type="MeshInstance3D" parent="floor/tiles"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 4, 0, -2)
+mesh = ExtResource("1_p78ic")
+skeleton = NodePath("../../..")
+
+[node name="floor_12" type="MeshInstance3D" parent="floor/tiles"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 2, 0, -4)
+mesh = ExtResource("1_p78ic")
+skeleton = NodePath("../../..")
+
+[node name="floor_13" type="MeshInstance3D" parent="floor/tiles"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 4, 0, -4)
+mesh = ExtResource("1_p78ic")
+skeleton = NodePath("../../..")
+
+[node name="floor_4" type="MeshInstance3D" parent="floor/tiles"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, -2)
+mesh = ExtResource("1_p78ic")
+skeleton = NodePath("../../..")
+
+[node name="floor_11" type="MeshInstance3D" parent="floor/tiles"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, -4)
+mesh = ExtResource("1_p78ic")
+skeleton = NodePath("../../..")
+
+[node name="floor_5" type="MeshInstance3D" parent="floor/tiles"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, -2, 0, -2)
+mesh = ExtResource("1_p78ic")
+skeleton = NodePath("../../..")
+
+[node name="floor_10" type="MeshInstance3D" parent="floor/tiles"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, -2, 0, -4)
+mesh = ExtResource("1_p78ic")
+skeleton = NodePath("../../..")
+
+[node name="floor_6" type="MeshInstance3D" parent="floor/tiles"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, -2, 0, 0)
+mesh = ExtResource("1_p78ic")
+skeleton = NodePath("../../..")
+
+[node name="floor_7" type="MeshInstance3D" parent="floor/tiles"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, -2, 0, 2)
+mesh = ExtResource("1_p78ic")
+skeleton = NodePath("../../..")
+
+[node name="floor_17" type="MeshInstance3D" parent="floor/tiles"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, -4, 0, -2)
+mesh = ExtResource("1_p78ic")
+skeleton = NodePath("../../..")
+
+[node name="floor_18" type="MeshInstance3D" parent="floor/tiles"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, -4, 0, -4)
+mesh = ExtResource("1_p78ic")
+skeleton = NodePath("../../..")
+
+[node name="floor_21" type="MeshInstance3D" parent="floor/tiles"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 2, 0, -6)
+mesh = ExtResource("1_p78ic")
+skeleton = NodePath("../../..")
+
+[node name="floor_22" type="MeshInstance3D" parent="floor/tiles"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 4, 0, -6)
+mesh = ExtResource("1_p78ic")
+skeleton = NodePath("../../..")
+
+[node name="floor_23" type="MeshInstance3D" parent="floor/tiles"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, -6)
+mesh = ExtResource("1_p78ic")
+skeleton = NodePath("../../..")
+
+[node name="floor_24" type="MeshInstance3D" parent="floor/tiles"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, -2, 0, -6)
+mesh = ExtResource("1_p78ic")
+skeleton = NodePath("../../..")
+
+[node name="floor_25" type="MeshInstance3D" parent="floor/tiles"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, -4, 0, -6)
+mesh = ExtResource("1_p78ic")
+skeleton = NodePath("../../..")
+
+[node name="floor_19" type="MeshInstance3D" parent="floor/tiles"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, -4, 0, 0)
+mesh = ExtResource("1_p78ic")
+skeleton = NodePath("../../..")
+
+[node name="floor_20" type="MeshInstance3D" parent="floor/tiles"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, -4, 0, 2)
+mesh = ExtResource("1_p78ic")
+skeleton = NodePath("../../..")
+
+[node name="floor_8" type="MeshInstance3D" parent="floor/tiles"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 2)
+mesh = ExtResource("1_p78ic")
+skeleton = NodePath("../../..")
+
+[node name="floor_9" type="MeshInstance3D" parent="floor/tiles"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 2, 0, 2)
+mesh = ExtResource("1_p78ic")
+skeleton = NodePath("../../..")
+
+[node name="floor_16" type="MeshInstance3D" parent="floor/tiles"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 4, 0, 2)
+mesh = ExtResource("1_p78ic")
+skeleton = NodePath("../../..")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="floor"]
+shape = SubResource("BoxShape3D_egcc4")
