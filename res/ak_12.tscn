@@ -9,12 +9,14 @@
 [ext_resource type="Material" uid="uid://uiunyvxsfs6o" path="res://res/materials/particules_muzzle_smoke_effect.tres" id="7_fvtt2"]
 
 [sub_resource type="QuadMesh" id="QuadMesh_yjg7j"]
+size = Vector2(0.25, 0.25)
 
 [sub_resource type="QuadMesh" id="QuadMesh_afipq"]
+size = Vector2(0.25, 0.25)
 orientation = 0
 
 [sub_resource type="QuadMesh" id="QuadMesh_udqnm"]
-size = Vector2(0.5, 0.5)
+size = Vector2(0.75, 0.75)
 
 [node name="AK12" instance=ExtResource("1_rpvdq")]
 script = ExtResource("2_42bdm")
@@ -33,12 +35,12 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.17662, 0)
 target_position = Vector3(0, 0, -10)
 
 [node name="MuzzleFlash" type="GPUParticles3D" parent="." index="7"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.171182, -1.33641)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.171182, -1.40347)
 material_override = ExtResource("4_ku88g")
+cast_shadow = 0
 emitting = false
 amount = 1
 lifetime = 0.15
-interp_to_end = 0.99
 one_shot = true
 local_coords = true
 process_material = ExtResource("5_ismv0")

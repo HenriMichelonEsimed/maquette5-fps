@@ -2,7 +2,7 @@ class_name Weapon extends Node
 
 @export var recoil : float = deg_to_rad(5)
 @export var recoil_delay : float = 0.05
-@export var dmg : int = 20
+@export var dmg : int = 25
 @export var range : int = 50
 @export var camera : Camera3D
 
@@ -40,7 +40,9 @@ func _input(event: InputEvent) -> void:
 		muzzle_flash.restart()
 		muzzle_smoke.restart()
 		if raycast.is_colliding():
-			print("touch")
+			var target = raycast.get_collider()
+			if target is Enemy:
+				target.hit(dmg, raycast.get_collision_point() - target.global_position)
 		if recoil_tween:
 			recoil_tween.kill()
 		recoil_tween = create_tween()
