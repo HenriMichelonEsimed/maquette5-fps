@@ -1,13 +1,15 @@
 class_name Weapon extends Node
 
 @export var recoil : float = deg_to_rad(5)
+@export var recoil_delay : float = 0.05
 @export var dmg : int = 20
 @export var range : int = 50
-@export var recoil_delay : float = 0.05
 @export var camera : Camera3D
 
 @onready var crosshair : Crosshair = $Crosshair
-@onready var raycast : RayCast3D = $RayCast3D
+@onready var raycast : RayCast3D = $LineOfSight
+@onready var muzzle_flash : GPUParticles3D = $MuzzleFlash
+@onready var muzzle_smoke : GPUParticles3D = $MuzzleSmoke
 
 var recoil_tween : Tween
 var crosshair_default_position : Vector2
@@ -35,6 +37,8 @@ func set_crosshair_position() :
 
 func _input(event: InputEvent) -> void:
 	if mouse_captured() and Input.is_action_just_pressed("weapon_fire"):
+		muzzle_flash.restart()
+		muzzle_smoke.restart()
 		if raycast.is_colliding():
 			print("touch")
 		if recoil_tween:
