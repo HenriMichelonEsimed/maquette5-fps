@@ -1,29 +1,69 @@
 class_name Weapon extends Node
 
 @export var recoil : float = deg_to_rad(5)
+@export var dmg : int = 20
+@export var range : int = 50
+@export var recoil_delay : float = 0.05
+@export var camera : Camera3D
+
+@onready var crosshair : Crosshair = $Crosshair
+@onready var raycast : RayCast3D = $RayCast3D
 
 var recoil_tween : Tween
+var crosshair_default_position : Vector2
+
+func _ready() -> void:
+	crosshair_default_position = crosshair.position
+	raycast.target_position = Vector3(0.0, 0.0, -range)
+	raycast.set_collision_mask_value(1, false)
+	raycast.set_collision_mask_value(2, false)
+	raycast.set_collision_mask_value(3, true)
+	set_crosshair_position()
+	
+func _process(delta: float) -> void:
+	if recoil_tween:
+		set_crosshair_position()
+	if (raycast.is_colliding()) :
+		crosshair.set_hit_color()
+	else:
+		crosshair.set_default_colot()
+	crosshair.queue_redraw()
+
+func set_crosshair_position() : 
+	crosshair.center.y = get_screen_position_of_raycast_end().y - crosshair_default_position.y
+	crosshair.queue_redraw()
 
 func _input(event: InputEvent) -> void:
 	if mouse_captured() and Input.is_action_just_pressed("weapon_fire"):
-		print("fire")
+		if raycast.is_colliding():
+			print("touch")
 		if recoil_tween:
 			recoil_tween.kill()
 		recoil_tween = create_tween()
-		var rot = self.rotation
-		rot.x += recoil
-		recoil_tween.tween_property(self, "rotation", rot, 0.05)
+		recoil_tween.tween_property(self, "rotation:x",  self.rotation.x + recoil, recoil_delay)
+		recoil_tween.tween_property(raycast, "rotation:x",  self.rotation.x + recoil, recoil_delay)
 		recoil_tween.play()
-		recoil_tween.tween_callback(recoil_end)
-		
-func recoil_end():
-		recoil_tween.kill()
-		recoil_tween = create_tween()
-		var rot = self.rotation
-		rot.x -= recoil
-		recoil_tween.tween_property(self, "rotation", rot, 0.05)
-		recoil_tween.play()
+		recoil_tween.tween_callback(recoil_down)
+
+func recoil_down():
+	recoil_tween.kill()
+	recoil_tween = create_tween()
+	recoil_tween.tween_property(self, "rotation:x", 0, recoil_delay)
+	recoil_tween.tween_property(raycast, "rotation:x", 0, recoil_delay)
+	recoil_tween.play()
+	recoil_tween.tween_callback(recoil_end)
 	
+func recoil_end():
+	recoil_tween = null
+	set_crosshair_position()
+	
+func get_screen_position_of_raycast_end():
+	if not camera:
+		print("Camera is not set!")
+		return Vector2.ZERO
+	var ray_origin = raycast.global_transform.origin
+	var ray_end = ray_origin + -raycast.global_transform.basis.z * raycast.target_position.distance_to(ray_origin)
+	return camera.unproject_position(ray_end)
 
 func mouse_captured() -> bool:
 	return Input.mouse_mode == Input.MOUSE_MODE_CAPTURED

@@ -1,7 +1,21 @@
-[gd_scene load_steps=3 format=3 uid="uid://clgbo11qmkhno"]
+[gd_scene load_steps=4 format=3 uid="uid://clgbo11qmkhno"]
 
 [ext_resource type="PackedScene" uid="uid://b546d6m2eyvul" path="res://res/src/AK12.glb" id="1_rpvdq"]
 [ext_resource type="Script" path="res://src/ak_12.gd" id="2_42bdm"]
+[ext_resource type="PackedScene" uid="uid://bo7nyfqkmntow" path="res://scenes/crosshair.tscn" id="3_bkgja"]
 
 [node name="AK12" instance=ExtResource("1_rpvdq")]
 script = ExtResource("2_42bdm")
+
+[node name="Crosshair" parent="." index="5" instance=ExtResource("3_bkgja")]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="RayCast3D" type="RayCast3D" parent="." index="6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.17662, 0)
+target_position = Vector3(0, 0, -10)
