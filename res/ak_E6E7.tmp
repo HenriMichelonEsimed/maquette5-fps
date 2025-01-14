@@ -4,4 +4,5 @@
 [ext_resource type="Script" path="res://src/ak_12.gd" id="2_42bdm"]
 
 [node name="AK12" instance=ExtResource("1_rpvdq")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0.215699, -0.550526)
 script = ExtResource("2_42bdm")

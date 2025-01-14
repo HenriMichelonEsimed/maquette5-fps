@@ -19,12 +19,18 @@ func _ready() -> void:
 	capture_mouse()
 
 func _input(event):
-	if (event is InputEventScreenDrag) or (mouse_captured and (event is InputEventMouseMotion)):
-		rotate_y(-event.relative.x * mouse_sensitivity)
-		camera_pivot.rotate_x(event.relative.y * mouse_sensitivity * mouse_y_axis)
-		camera_pivot.rotation.x = clampf(camera_pivot.rotation.x, max_camera_angle_down, max_camera_angle_up)
-		weapon_pivot.rotate_x(event.relative.y * mouse_sensitivity * mouse_y_axis)
-		weapon_pivot.rotation.x = clampf(weapon_pivot.rotation.x, max_camera_angle_down, max_camera_angle_up)
+	if (mouse_captured()):
+		if (event is InputEventScreenDrag) or (mouse_captured and (event is InputEventMouseMotion)):
+			rotate_y(-event.relative.x * mouse_sensitivity)
+			camera_pivot.rotate_x(event.relative.y * mouse_sensitivity * mouse_y_axis)
+			camera_pivot.rotation.x = clampf(camera_pivot.rotation.x, max_camera_angle_down, max_camera_angle_up)
+			weapon_pivot.rotate_x(event.relative.y * mouse_sensitivity * mouse_y_axis)
+			weapon_pivot.rotation.x = clampf(weapon_pivot.rotation.x, max_camera_angle_down, max_camera_angle_up)
+		if (Input.is_action_just_pressed("esc")):
+			release_mouse()
+	else:
+		if (event is InputEventMouseButton):
+			capture_mouse()
 
 func _physics_process(delta: float) -> void:
 	var on_floor = is_on_floor() 
@@ -38,7 +44,6 @@ func _physics_process(delta: float) -> void:
 	if  direction != Vector3.ZERO:
 		capture_mouse()
 	move_and_slide()
-	
 
 func _process(delta: float) -> void:
 	pass

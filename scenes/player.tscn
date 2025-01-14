@@ -56,4 +56,3 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.175358, 1.08798, -0.517185)
 [node name="WeaponPivot" type="Node3D" parent="WeaponAttachement"]
 
 [node name="AK12" parent="WeaponAttachement/WeaponPivot" instance=ExtResource("3_h0rpg")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0.215699, -0.550526)
