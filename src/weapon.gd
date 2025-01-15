@@ -4,7 +4,6 @@ class_name Weapon extends Node
 @export var recoil_delay : float = 0.05
 @export var dmg : int = 25
 @export var range : int = 50
-@export var camera : Camera3D
 
 @onready var crosshair : Crosshair = $Crosshair
 @onready var raycast : RayCast3D = $LineOfSight
@@ -64,12 +63,9 @@ func recoil_end():
 	set_crosshair_position()
 	
 func get_screen_position_of_raycast_end():
-	if not camera:
-		print("Camera is not set!")
-		return Vector2.ZERO
 	var ray_origin = raycast.global_transform.origin
 	var ray_end = ray_origin + -raycast.global_transform.basis.z * raycast.target_position.distance_to(ray_origin)
-	return camera.unproject_position(ray_end)
+	return get_viewport().get_camera_3d().unproject_position(ray_end)
 
 func mouse_captured() -> bool:
 	return Input.mouse_mode == Input.MOUSE_MODE_CAPTURED

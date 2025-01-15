@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://cb8ytip71v5om"]
 
-[ext_resource type="ArrayMesh" uid="uid://bx3kb5b05lf05" path="res://res/src/meshes/space_colony_modular_kit_bash_Cube_010_Texture_Atlas1_0.res" id="1_3itqs"]
+[ext_resource type="ArrayMesh" uid="uid://bx3kb5b05lf05" path="res://res/models/src/meshes/space_colony_modular_kit_bash_Cube_010_Texture_Atlas1_0.res" id="1_3itqs"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_dtdwb"]
 size = Vector3(0.5271, 2, 4)

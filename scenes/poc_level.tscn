@@ -1,16 +1,33 @@
-[gd_scene load_steps=7 format=3 uid="uid://coqjhh1dnh5ds"]
+[gd_scene load_steps=12 format=3 uid="uid://coqjhh1dnh5ds"]
 
-[ext_resource type="ArrayMesh" uid="uid://dh4ku8r888i88" path="res://res/src/meshes/space_colony_modular_kit_bash_Cube_1411_Texture_Atlas1_0.res" id="1_c4c2g"]
+[ext_resource type="ArrayMesh" uid="uid://dh4ku8r888i88" path="res://res/models/src/meshes/space_colony_modular_kit_bash_Cube_1411_Texture_Atlas1_0.res" id="1_c4c2g"]
 [ext_resource type="PackedScene" uid="uid://cb8ytip71v5om" path="res://scenes/space_colony/wall1.tscn" id="2_c4pbi"]
 [ext_resource type="PackedScene" uid="uid://cu6waqmm8c4n3" path="res://scenes/space_colony/wall2.tscn" id="3_5wv8o"]
 [ext_resource type="PackedScene" uid="uid://oao7fs6pqt6a" path="res://scenes/space_colony/wall2_corner.tscn" id="4_gyyp6"]
+[ext_resource type="Script" path="res://src/enemy_spawn_path.gd" id="5_irp11"]
+[ext_resource type="PackedScene" uid="uid://c3wtnn177ktjf" path="res://scenes/enemy2.tscn" id="6_al733"]
+[ext_resource type="PackedScene" uid="uid://c164eejn7j74r" path="res://scenes/enemy1.tscn" id="7_m0cjo"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_cddal"]
 size = Vector3(100, 0.1, 100)
 
+[sub_resource type="Curve3D" id="Curve3D_drke8"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -7.5504, 0, -6.9339, 0, 0, 0, 0, 0, 0, 3.18657, 0, -7.39736, 0, 0, 0, 0, 0, 0, 9.44337, 0, -7.32012, 0, 0, 0, 0, 0, 0, 15.6229, 0, -6.85665, 0, 0, 0, 0, 0, 0, 17.6313, 0, -4.1531, 0, 0, 0, 0, 0, 0, 17.554, 0, 1.25402),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0, 0)
+}
+point_count = 6
+
 [sub_resource type="Curve3D" id="Curve3D_nm7yu"]
 _data = {
-"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -10.983, 0, -1.78151, 0, 0, 0, 0, 0, 0, -3.43525, 0, -2.33378, 0, 0, 0, 0, 0, 0, 4.71735, 0, -3.04385, 0, 0, 0, 0, 0, 0, 10.7397, 0, -1.78151),
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -12.2613, 0, 7.19562, 0, 0, 0, 0, 0, 0, -9.09433, 0, 0.552597, 0, 0, 0, 0, 0, 0, -1.29263, 0, -1.22403, 0, 0, 0, 0, 0, 0, 4.96417, 0, -1.45576),
+"tilts": PackedFloat32Array(0, 0, 0, 0)
+}
+point_count = 4
+
+[sub_resource type="Curve3D" id="Curve3D_n72kj"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -0.741429, 0, 3.53278, 0, 0, 0, 0, 0, 0, 4.82017, 0, 1.36993, 0, 0, 0, 0, 0, 0, 10.6135, 0, 1.91064, 0, 0, 0, 0, 0, 0, 12.3901, 0, 1.91064),
 "tilts": PackedFloat32Array(0, 0, 0, 0)
 }
 point_count = 4
@@ -4555,6 +4572,20 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.5, 8, -5)
 light_energy = 20.0
 omni_range = 20.0
 
-[node name="EnemySpawnPath" type="Path3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.5, 0, -13.5)
+[node name="EnemySpawnPath2" type="Path3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5, 0, -35.5)
+curve = SubResource("Curve3D_drke8")
+script = ExtResource("5_irp11")
+enemy_scene = ExtResource("6_al733")
+
+[node name="EnemySpawnPath1" type="Path3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17, 0, -18.5)
 curve = SubResource("Curve3D_nm7yu")
+script = ExtResource("5_irp11")
+enemy_scene = ExtResource("7_m0cjo")
+
+[node name="EnemySpawnPath3" type="Path3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -17)
+curve = SubResource("Curve3D_n72kj")
+script = ExtResource("5_irp11")
+enemy_scene = ExtResource("7_m0cjo")
