@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=4 uid="uid://c3wtnn177ktjf"]
 
-[ext_resource type="Script" path="res://src/enemy_2.gd" id="1_b64x5"]
+[ext_resource type="Script" uid="uid://bxiyqa8ifxywu" path="res://src/enemy_2.gd" id="1_b64x5"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_3iann"]
 radius = 1.0

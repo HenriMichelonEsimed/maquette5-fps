@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=4 uid="uid://c164eejn7j74r"]
 
-[ext_resource type="Script" path="res://src/enemy_1.gd" id="1_trw1a"]
+[ext_resource type="Script" uid="uid://cct6opo8ruy3m" path="res://src/enemy_1.gd" id="1_trw1a"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_m1v11"]
 height = 1.75292

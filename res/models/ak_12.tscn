@@ -1,7 +1,7 @@
 [gd_scene load_steps=11 format=3 uid="uid://clgbo11qmkhno"]
 
 [ext_resource type="PackedScene" uid="uid://b546d6m2eyvul" path="res://res/models/src/AK12.glb" id="1_rpvdq"]
-[ext_resource type="Script" path="res://src/ak_12.gd" id="2_42bdm"]
+[ext_resource type="Script" uid="uid://b44tv1iprbvd2" path="res://src/ak_12.gd" id="2_42bdm"]
 [ext_resource type="PackedScene" uid="uid://bo7nyfqkmntow" path="res://scenes/crosshair.tscn" id="3_bkgja"]
 [ext_resource type="Material" uid="uid://bm6eyyxqsbaqv" path="res://res/materials/muzzle_flash_effect.tres" id="4_ku88g"]
 [ext_resource type="Material" uid="uid://f8erod6gxtfm" path="res://res/materials/particules_muzzle_flash_effect.tres" id="5_ismv0"]

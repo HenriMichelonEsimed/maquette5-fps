@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://cb8ytip71v5om" path="res://scenes/space_colony/wall1.tscn" id="2_c4pbi"]
 [ext_resource type="PackedScene" uid="uid://cu6waqmm8c4n3" path="res://scenes/space_colony/wall2.tscn" id="3_5wv8o"]
 [ext_resource type="PackedScene" uid="uid://oao7fs6pqt6a" path="res://scenes/space_colony/wall2_corner.tscn" id="4_gyyp6"]
-[ext_resource type="Script" path="res://src/enemy_spawn_path.gd" id="5_irp11"]
+[ext_resource type="Script" uid="uid://4fsoinsmgk1v" path="res://src/enemy_spawn_path.gd" id="5_irp11"]
 [ext_resource type="PackedScene" uid="uid://c3wtnn177ktjf" path="res://scenes/enemy2.tscn" id="6_al733"]
 [ext_resource type="PackedScene" uid="uid://c164eejn7j74r" path="res://scenes/enemy1.tscn" id="7_m0cjo"]
 
